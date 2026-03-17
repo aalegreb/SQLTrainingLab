@@ -1,0 +1,17 @@
+# ======================================================================
+# REQUIREMENTS.TXT - SQLTrainingLab
+# ======================================================================
+# 
+# Archivo de dependencias para la instalación automática con pip
+#
+# Instalar con el siguiente comando:
+#
+# pip install -r requirements.txt
+
+psycopg[binary]==3.2.13
+python-dotenv==1.2.1
+pandas==2.3.3
+openpyxl==3.1.5
+PyQt6==6.10.2
+prompt-toolkit==3.0.52
+sqlparse==0.5.5
