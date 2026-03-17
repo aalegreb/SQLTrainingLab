@@ -4,6 +4,8 @@
 
 Utiliza una base de datos estándar de **PostgreSQL**, ya sea local o en la nube. Posee dos modos de interfaz: terminal y gráfica. Se recomienda utilizar la segunda.
 
+Para su uso por parte de estudiantes, es necesario que el docente inicie sesión en la app mediante un superusuario "administrador", ejecute la opción de setup de la base de datos y cree usuarios para los alumnos a partir de Excel mediante la opción que se proporciona. Una vez realizados estos procesos, los estudiantes pueden acceder a la aplicación con sus credenciales y realizar sus prácticas de SQL bajo el registro de su actividad. Para la consulta de este, el administrador posee una opción para exportar los datos registrados, que se exportan automáticamente a Excel.
+
 ## Requisitos previos
 
 - Python 3.11 o superior: https://www.python.org/downloads/
