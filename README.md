@@ -4,9 +4,17 @@
 
 Utiliza una base de datos estándar de **PostgreSQL**, ya sea local o en la nube. Posee dos modos de interfaz: terminal y gráfica. Se recomienda utilizar la segunda.
 
+<p align="center">
+  <img src="img/main_window.png" alt="Main Window" title="Pantalla principal" width="650"/>
+</p>
+
 Para su uso por parte de estudiantes, es necesario que el docente inicie sesión en la app mediante un superusuario "administrador", ejecute la opción de setup de la base de datos y cree usuarios para los alumnos a partir de Excel mediante la opción que se proporciona. Una vez realizados estos procesos, el docente tomará las credenciales creadas del archivo Excel y las enviará a cada alumno por la vía que considere oportuna, junto con el archivo `.env` explicado más abajo.
 
 Con estos datos, los estudiantes ya pueden acceder a la base de datos a través de la aplicación con sus credenciales y realizar sus prácticas de SQL bajo el registro de actividad. Para la consulta de este registro, el administrador posee una opción para exportar los datos registrados, que se exportan automáticamente a Excel.
+
+<p align="center">
+  <img src="img/admin_tools.png" alt="Admin Tools" title="Opciones de administrador" width="300"/>
+</p>
 
 ## Requisitos previos
 
