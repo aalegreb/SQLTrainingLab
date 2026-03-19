@@ -4,7 +4,9 @@
 
 Utiliza una base de datos estándar de **PostgreSQL**, ya sea local o en la nube. Posee dos modos de interfaz: terminal y gráfica. Se recomienda utilizar la segunda.
 
-Para su uso por parte de estudiantes, es necesario que el docente inicie sesión en la app mediante un superusuario "administrador", ejecute la opción de setup de la base de datos y cree usuarios para los alumnos a partir de Excel mediante la opción que se proporciona. Una vez realizados estos procesos, los estudiantes pueden acceder a la aplicación con sus credenciales y realizar sus prácticas de SQL bajo el registro de su actividad. Para la consulta de este, el administrador posee una opción para exportar los datos registrados, que se exportan automáticamente a Excel.
+Para su uso por parte de estudiantes, es necesario que el docente inicie sesión en la app mediante un superusuario "administrador", ejecute la opción de setup de la base de datos y cree usuarios para los alumnos a partir de Excel mediante la opción que se proporciona. Una vez realizados estos procesos, el docente tomará las credenciales creadas del archivo Excel y las enviará a cada alumno por la vía que considere oportuna, junto con el archivo `.env` explicado más abajo.
+
+Con estos datos, los estudiantes ya pueden acceder a la base de datos a través de la aplicación con sus credenciales y realizar sus prácticas de SQL bajo el registro de actividad. Para la consulta de este registro, el administrador posee una opción para exportar los datos registrados, que se exportan automáticamente a Excel.
 
 ## Requisitos previos
 
@@ -25,7 +27,7 @@ SQLTrainingLab requiere un archivo `.env` en el directorio raíz del proyecto co
 
 ## Archivos especiales
 
-- `imports/users_import.xlsx` — ejemplo de fichero Excel para la creación automática de usuarios. Deben respetarse el nombre del archivo, de la hoja y de las dos columnas, incluyendo en estas los datos de los usuarios a crear.
+- `imports/users_import.xlsx` — ejemplo de fichero Excel para la creación automática de usuarios. Deben respetarse el nombre del archivo, de la hoja y de las dos columnas, incluyendo en estas los datos de los usuarios a crear. Las credenciales de acceso generadas se incluyen en él automáticamente.
 - `exports/auditing_data.xlsx` — generado mediante la opción de exportación del administrador, no incluido inicialmente. Contiene cuatro hojas con los datos de registro de actividad exportados.
 - `logs/` — carpeta con archivos `.log` de errores. Se genera un archivo por día de uso, no incluida inicialmente.
 
